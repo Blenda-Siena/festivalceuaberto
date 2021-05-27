@@ -1,0 +1,15 @@
+* {   
+    background-color: #d85434;
+    list-style: none;
+    font-family : 'Montserrat', sans-serif;
+}
+
+.header {
+    display: inline-flexbox;
+    justify-content: baselines;
+}
+
+#ceuAberto {
+    display: flex;
+
+}
