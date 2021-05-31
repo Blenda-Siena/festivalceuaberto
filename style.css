@@ -1,15 +1,153 @@
 * {   
-    background-color: #d85434;
-    list-style: none;
-    font-family : 'Montserrat', sans-serif;
+  /* list-style: none; */
+}
+
+body {
+  background-color: #d85434;
+  font-family : 'Montserrat', sans-serif;
+  margin: 0;
 }
 
 .header {
-    display: inline-flexbox;
-    justify-content: baselines;
+  /* display: inline-flexbox;
+  justify-content: baselines; */
+  display: flex;
+  margin: 48px 100px 20px 100px;
+}
+.logoHeader img{
+  width: 160px;
+}
+.bannerHeader img{
+  width: 936px;
+}
+
+.menu {
+  margin: 35px 296px 30px 260px;
+}
+.menu ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.menu li {
+  list-style: none;
+  flex-grow: 1;
+}
+.menu a {
+  color: #F1D929;
+  text-decoration: none;
+  font-size: 14px;
+}
+menu a:hover {
+  font-weight: bold;
+}
+
+
+/* Sessão Ceu Aberto */
+
+.ceu-aberto-texto {
+  color: #fff;
+  font-family : 'Montserrat', sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
 }
 
 #ceuAberto {
-    display: flex;
+  /* display: flex; */
+  background-color: #d85434;
+  background-image: url(img/elipse-1.png), url(img/elipse-2.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: -150px 10px, calc(100vw - 200px);
+  height: 1750px;
+}
 
+#ceuAberto .logoCentral {
+  padding-top: 148px;
+  text-align: center;
+}
+#ceuAberto .logoCentral img {
+  width: 388px;
+  /* width: ; fazendo regra de 3 no papel 
+  para achar quantos % da tela de 1920 é 388
+  100vw = 100% do tamanho da tela do browser, isso ajuda bem em responsividade
+  acho que é legal fazer primeiro em px para o tamanho referência,
+  depois transcrever para vw */
+}
+
+#ceuAberto h1 {
+  margin: 100px 0 100px 284px; /* top right bottom left */
+  width: 465px;
+}
+
+#ceuAberto h2 {
+  margin: 100px 280px 380px 580px;      
+  width: 465px;
+}
+
+/* Seção Assista */
+#assista {
+  background: rgba(0,0,0,0.2);
+  margin: 33px;
+  color: #fff;
+  text-align: right;
+  padding: 55px;
+}
+
+#assista h1 {
+  text-transform: lowercase;
+  font-size: 60px;
+}
+
+#assista h3 {
+  margin-left: 420px;
+}
+
+/* Seção Contato */
+#contato {
+  margin-bottom: 130px
+}
+
+/* Rodapé Fixado */
+.sticky-footer {
+  position: fixed;
+  width: 100vw;
+  height: 10vh;
+  bottom: 0;
+}
+
+.sticky-footer-wrapper {
+  height: 10vh;
+  background: #F1D929;
+  color: #D15435;
+}
+
+.countdown {
+  display: flex;
+  padding-top: 15px;
+  
+  /** isso deve mudar p flex, apenas para ajuste visual **/
+  margin-left: 100px;
+}
+.countdown-number {
+  background: #D15435;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  width: 36px;
+  height: 21px;
+  padding: 0 8px 10px 15px;
+  margin: 0 5px;
+}
+.countdown-unit {
+  text-align: center;
+  font-size: 12px;
+}
+.footer-selo {
+  position: fixed;
+  bottom: 0;
+  right: 100px;
+}
+.footer-selo img {
+  width: 130px;
 }
