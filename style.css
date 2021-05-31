@@ -57,7 +57,7 @@ menu a:hover {
   background-color: #d85434;
   background-image: url(img/elipse-1.png), url(img/elipse-2.png);
   background-repeat: no-repeat, no-repeat;
-  background-position: -150px 10px, calc(100vw - 200px);
+  background-position: -500px 10px, calc(100vw - 200px);
   height: 1750px;
 }
 
@@ -150,4 +150,13 @@ menu a:hover {
 }
 .footer-selo img {
   width: 130px;
+}
+#patrocinio {
+  background-color: #d85434;
+
+  
+}
+.patrocinio {
+  writing-mode: vertical-lr;
+
 }
