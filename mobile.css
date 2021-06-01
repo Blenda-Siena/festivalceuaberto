@@ -1,0 +1,11 @@
+@media (max-width: 768px) {
+  .logoHeader img {
+    width: 80vw;
+    margin: 3vw 10vw;
+  }
+  .bannerHeader img{
+    height: 80vh;
+    position: absolute;
+    left: -41vh;
+  }
+}

@@ -8,17 +8,8 @@ body {
   margin: 0;
 }
 
-.header {
-  /* display: inline-flexbox;
-  justify-content: baselines; */
-  display: flex;
-  margin: 48px 100px 20px 100px;
-}
 .logoHeader img{
   width: 160px;
-}
-.bannerHeader img{
-  width: 936px;
 }
 
 .menu {
@@ -57,14 +48,10 @@ menu a:hover {
   background-color: #d85434;
   background-image: url(img/elipse-1.png), url(img/elipse-2.png);
   background-repeat: no-repeat, no-repeat;
-  background-position: -500px 10px, calc(100vw - 200px);
+  background-position: -300px 10px, calc(100vw - 600px);
   height: 1750px;
 }
 
-#ceuAberto .logoCentral {
-  padding-top: 148px;
-  text-align: center;
-}
 #ceuAberto .logoCentral img {
   width: 388px;
   /* width: ; fazendo regra de 3 no papel 
@@ -75,37 +62,52 @@ menu a:hover {
 }
 
 #ceuAberto h1 {
-  margin: 100px 0 100px 284px; /* top right bottom left */
-  width: 465px;
+  /*margin: 100px 0 100px 284px;  top right bottom left */
+  margin: 5.203vw 0 5.203vw 14.776vw;
+  /*width: 465px;*/
+  width: 24.194vw;
 }
 
 #ceuAberto h2 {
-  margin: 100px 280px 380px 580px;      
-  width: 465px;
+  /*margin: 100px 280px 380px 580px;*/
+  margin: 5.203vw 14.776vw 19.771vw 30.177vw;
+  /*width: 465px;*/
+  width: 24.194vw;
 }
 
 /* Seção Assista */
 #assista {
-  background: rgba(0,0,0,0.2);
-  margin: 33px;
+  background: rgba(0, 0, 0, 0.2);
+  /*margin: 33px;*/
+  margin: 1.717vw;
   color: #fff;
   text-align: right;
-  padding: 55px;
+  /*padding: 55px;*/
+  padding: 2.862vw;
 }
 
 #assista h1 {
   text-transform: lowercase;
-  font-size: 60px;
+  /*font-size: 60px;*/
+  font-size: 3.122px;
 }
 
 #assista h3 {
-  margin-left: 420px;
+  /*margin-left: 420px;*/
+  margin-left: 21.852vw;
 }
 
 /* Seção Contato */
 #contato {
-  margin-bottom: 130px
+  /*margin-bottom: 130px;*/
+  margin-bottom: 6.764vw;
 }
+
+.classificacao{
+  background: linear-gradient(#d56633, #e0952e, #eed82e, #96c5e2);
+
+}
+
 
 /* Rodapé Fixado */
 .sticky-footer {
@@ -122,11 +124,13 @@ menu a:hover {
 }
 
 .countdown {
+  font-family: 'Bodoni Moda', serif;
   display: flex;
-  padding-top: 15px;
+  /*padding-top: 15px;*/
+  padding-top: 0.780vw;
   
   /** isso deve mudar p flex, apenas para ajuste visual **/
-  margin-left: 100px;
+  margin-left: 100px; /* 1920px = 100vw = 5,21vw */
 }
 .countdown-number {
   background: #D15435;
@@ -134,10 +138,12 @@ menu a:hover {
   color: white;
   font-weight: bold;
   font-size: 25px;
-  width: 36px;
+  /*width: 36px;*/
+  width: 1.873vw;
   height: 21px;
   padding: 0 8px 10px 15px;
   margin: 0 5px;
+
 }
 .countdown-unit {
   text-align: center;
@@ -154,12 +160,10 @@ menu a:hover {
 #patrocinio {
   background-color: #d85434;
   border-radius: 20px;
-  width: 1442px;
+  /*width: 1442px;*/
   height: 274px;
   border: 2px solid red;
 
-
-  
 }
 .patrocinio {
   writing-mode: vertical-lr;
