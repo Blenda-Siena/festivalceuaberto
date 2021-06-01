@@ -153,10 +153,17 @@ menu a:hover {
 }
 #patrocinio {
   background-color: #d85434;
+  border-radius: 20px;
+  width: 1442px;
+  height: 274px;
+  border: 2px solid red;
+
 
   
 }
 .patrocinio {
   writing-mode: vertical-lr;
+  font-size: 50px;
+
 
 }
