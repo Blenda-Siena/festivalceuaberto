@@ -1,5 +1,14 @@
-* {   
-  /* list-style: none; */
+@font-face {
+  font-family: "Montserrat";
+  src: url(fonts/montseeat/Montserrat-Regular.woff)
+}
+@font-face {
+  font-family: "DalaMoa";
+  src: url(fonts/dalamoa/DalaMoa-Bold.woff);
+}
+@font-face {
+  font-family: "DalaMoa";
+  src: url(fonts/dalamoa/)
 }
 
 body {
@@ -112,7 +121,7 @@ menu a:hover {
 .fas {
   margin-right: 1500px;
   font-size: 300px;
-  color:yellow;
+  color:#F1D929;
   margin-top: auto;
 }
 /*
