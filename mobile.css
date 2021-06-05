@@ -1,11 +1,29 @@
 @media (max-width: 768px) {
   .logoHeader img {
-    width: 80vw;
-    margin: 3vw 10vw;
+    display:none;
   }
   .bannerHeader img{
-    height: 80vh;
-    position: absolute;
-    left: -41vh;
+    display:none;
+  }
+  .logocentral {
+    background-position: center-top;
+    max-width: 100px;
+    max-height: 100px;
+  }
+  .menu {
+    
+    margin: auto;
+    border: 4px solid greenyellow;
+    margin-left: 10px;
+    
+  }
+  .menu ul {
+    display: flex;
+    margin-left:auto;
+
+  }
+  #ceuAberto{
+  background-color: #d85434;
+
   }
 }

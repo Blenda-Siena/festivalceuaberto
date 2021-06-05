@@ -8,21 +8,33 @@ body {
   margin: 0;
 }
 
+.header {
+  /* display: inline-flexbox;
+  justify-content: baselines; */
+    display: flex;
+    margin: 48px 100px 20px 100px;
+    margin: 2.497vw 5.203vw 1.041vw 5.203vw;
+  }
+
 .logoHeader img{
-  width: 160px;
+  width: auto;
+}
+.bannerHeader img{
+  width: auto;
+  margin-left: 40px;
 }
 
 .menu {
   margin: 35px 296px 30px 260px;
-}
+  }
 .menu ul {
-  margin: 0;
-  padding: 0;
+  margin-left: 100px;
   display: flex;
 }
 .menu li {
   list-style: none;
   flex-grow: 1;
+  margin-right: 30px;
 }
 .menu a {
   color: #F1D929;
@@ -48,12 +60,17 @@ menu a:hover {
   background-color: #d85434;
   background-image: url(img/elipse-1.png), url(img/elipse-2.png);
   background-repeat: no-repeat, no-repeat;
-  background-position: -300px 10px, calc(100vw - 600px);
-  height: 1750px;
+  background-position: -400px 10px, calc(100vw - 800px);
+  height: 1100px;
 }
 
+#ceuAberto .logoCentral {
+  padding-top: 1px;
+  text-align: center;
+}
 #ceuAberto .logoCentral img {
   width: 388px;
+  margin-bottom: 50px;
   /* width: ; fazendo regra de 3 no papel 
   para achar quantos % da tela de 1920 é 388
   100vw = 100% do tamanho da tela do browser, isso ajuda bem em responsividade
@@ -62,52 +79,53 @@ menu a:hover {
 }
 
 #ceuAberto h1 {
-  /*margin: 100px 0 100px 284px;  top right bottom left */
-  margin: 5.203vw 0 5.203vw 14.776vw;
-  /*width: 465px;*/
-  width: 24.194vw;
+  margin: 100px 0 100px 284px; /* top right bottom left */
+  width: 465px;
+  font-size:25px
 }
 
 #ceuAberto h2 {
-  /*margin: 100px 280px 380px 580px;*/
-  margin: 5.203vw 14.776vw 19.771vw 30.177vw;
-  /*width: 465px;*/
-  width: 24.194vw;
+  margin: -200px 280px 380px 1400px;      
+  width: 465px;
+  font-size: 25px;
 }
 
 /* Seção Assista */
 #assista {
-  background: rgba(0, 0, 0, 0.2);
-  /*margin: 33px;*/
-  margin: 1.717vw;
+  background: rgba(0,0,0,0.2);
+  margin: 33px;
   color: #fff;
   text-align: right;
-  /*padding: 55px;*/
-  padding: 2.862vw;
+  padding: 55px;
+
 }
 
 #assista h1 {
   text-transform: lowercase;
-  /*font-size: 60px;*/
-  font-size: 3.122px;
+  font-size: 60px;
 }
 
 #assista h3 {
-  /*margin-left: 420px;*/
-  margin-left: 21.852vw;
+  margin-left: 420px;
+}
+
+.fas {
+  margin-right: 1500px;
+  font-size: 300px;
+  color:yellow;
+  margin-top: auto;
+}
+/*
+#grad1 {
+  height: 200px;
+  background-color:#d85434;;
+  background-image: linear-gradient(#d25d33,#edd82f);
 }
 
 /* Seção Contato */
 #contato {
-  /*margin-bottom: 130px;*/
-  margin-bottom: 6.764vw;
+  margin-bottom: 130px
 }
-
-.classificacao{
-  background: linear-gradient(#d56633, #e0952e, #eed82e, #96c5e2);
-
-}
-
 
 /* Rodapé Fixado */
 .sticky-footer {
@@ -124,13 +142,11 @@ menu a:hover {
 }
 
 .countdown {
-  font-family: 'Bodoni Moda', serif;
   display: flex;
-  /*padding-top: 15px;*/
-  padding-top: 0.780vw;
+  padding-top: 15px;
   
   /** isso deve mudar p flex, apenas para ajuste visual **/
-  margin-left: 100px; /* 1920px = 100vw = 5,21vw */
+  margin-left: 100px;
 }
 .countdown-number {
   background: #D15435;
@@ -138,12 +154,10 @@ menu a:hover {
   color: white;
   font-weight: bold;
   font-size: 25px;
-  /*width: 36px;*/
-  width: 1.873vw;
+  width: 36px;
   height: 21px;
   padding: 0 8px 10px 15px;
   margin: 0 5px;
-
 }
 .countdown-unit {
   text-align: center;
@@ -160,14 +174,31 @@ menu a:hover {
 #patrocinio {
   background-color: #d85434;
   border-radius: 20px;
-  /*width: 1442px;*/
+  width: 1442px;
   height: 274px;
   border: 2px solid red;
 
+
+  
 }
 .patrocinio {
   writing-mode: vertical-lr;
   font-size: 50px;
 
 
+}
+.classificacao {
+  margin-left: 1750px;
+  margin-right: 40px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-align: right;
+  color: #fff;
+  text-align-last: center;
+}
+.green-classification-badge {
+  font-size: 60px;
+  background-color: green;
+  text-align: center;
+  border-radius: 10px;
 }

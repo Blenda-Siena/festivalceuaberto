@@ -1,18 +1,15 @@
-@media (min-width: 769px) {
+/* @media (min-width: 769px) {
   .header {
     /* display: inline-flexbox;
-    justify-content: baselines; */
+    justify-content: baselines; 
     display: flex;
     margin: 48px 100px 20px 100px;
     margin: 2.497vw 5.203vw 1.041vw 5.203vw;
   }
 
-  .bannerHeader img{
-    width: 936px;
-  }
-
+  
   #ceuAberto .logoCentral {
     padding-top: 148px;
     text-align: center;
   }
-}
+}*/
