@@ -180,11 +180,13 @@ menu a:hover {
   height: 10vh;
   background: #F1D929;
   color: #D15435;
+  display: flex;
 }
 
 .countdown {
   display: flex;
-  padding-top: 15px;
+  /* padding-top: 15px; */
+  padding-top: 5px;
   font-family: 'DalaMoa Black';
   /** isso deve mudar p flex, apenas para ajuste visual **/
   margin-left: 100px;
@@ -205,6 +207,20 @@ menu a:hover {
 .countdown-unit {
   text-align: center;
   font-size: 12px;
+}
+.footer-evento {
+  text-transform: uppercase;
+  padding: 10px 20px;
+  font-size: 23px;
+  line-height: 22px;
+}
+.footer-presenca {
+  text-align: right;
+  font-size: 23px;
+  padding: 10px 20px;
+  flex-grow: 1;
+  margin-right: 20vw;
+  background: radial-gradient(circle at 21.7vw, #fff 2vw, transparent 2.2vw);
 }
 .footer-selo {
   position: fixed;
@@ -229,3 +245,22 @@ menu a:hover {
 
 }
 
+/* Badge Em construção */
+body:after{
+  content: "em construção";
+  position: fixed;
+  width: 270px;
+  height: 40px;
+  background: #FE5E4A;
+  top: 50px;
+  left: -70px;
+  text-align: center;
+  font-size: 15px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  line-height: 40px;
+  transform:rotate(-45deg);
+  box-shadow: -4px 5px 10px #600;
+}
